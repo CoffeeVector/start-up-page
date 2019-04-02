@@ -40,7 +40,7 @@ class App extends Component {
 		return (
 			<div className="App">
 				{this.state.showSchedule ? '':<div className="ClockGreeting"><Clock/><Greeting/></div>}
-				{!this.state.showSchedule  && this.state.showDaySchedule && d >= 1 && d <= 5? <div className="Column"><Schedule day={d}/><Schedule day={(d === 7) ? 0: d + 1}/></div>: ''}
+				{!this.state.showSchedule && this.state.showDaySchedule && d >= 1 && d <= 5? <div className="Column"><Schedule day={d}/><Schedule day={(d === 7) ? 0: d + 1}/></div>: ''}
 				{this.state.showSchedule ? (<Schedule/>) : ''}
 			</div>
 		);
