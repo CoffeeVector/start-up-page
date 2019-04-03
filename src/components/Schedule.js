@@ -22,7 +22,6 @@ class Schedule extends Component {
 			}
 		}
 		rawFile.send(null);
-		console.log(c)
 		this.state = {
 			courses: c
 		}

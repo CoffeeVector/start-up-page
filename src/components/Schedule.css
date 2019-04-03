@@ -1,41 +1,41 @@
 .Day {
-	font-size: 1.4em;
+	font-size: 140%;
 	color: #66d9ef;
 	font-family: "Open Sans";
 }
 
 .Yellow {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #f4bf75;
 	font-family: "Open Sans";
 }
 
 .Cyan {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #a1efe4;
 	font-family: "Open Sans";
 }
 
 .Red {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #f92672;
 	font-family: "Open Sans";
 }
 
 .Magenta {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #ae81ff;
 	font-family: "Open Sans";
 }
 
 .Green {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #a6e22e;
 	font-family: "Open Sans";
 }
 
 .White {
-	font-size: 0.7em;
+	font-size: 70%;
 	color: #f8f8f2;
 	font-family: "Open Sans";
 }
@@ -56,6 +56,7 @@
 	white-space: nowrap;
 	overflow: hidden;
 	width: 100%;
+	height: 100%;
 }
 
 .DaySchedule .Classroom {
@@ -79,5 +80,6 @@
 	display: grid;
 	grid-template-columns: 20% 20% 20% 20% 20%;
 	grid-template-rows: auto;
-	width: 90%
+	width: 90%;
+	height: 100%
 }
