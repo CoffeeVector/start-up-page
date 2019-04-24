@@ -7,8 +7,8 @@ class Greeting extends Component {
 	constructor(props) {
 		super(props);
 
-		fetch("res/settings.json").then( (resp) => resp.json()).then( (jsonResp) => this.setState({name: jsonResp.name}));
-
+		fetch("res/settings.json").then( (resp) => resp.json()).then( (jsonResp) => this.setState({name: jsonResp.name})).catch(error => {fetch("default-res/settings.json").then( (def_resp) => def_resp.json()).then( (def_jsonResp) => this.setState({name: def_jsonResp.name}))
+		});
 		this.state = {
 			date: new Date(),
 			name: ""
